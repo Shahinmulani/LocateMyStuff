@@ -26,14 +26,14 @@ MongoDB (v4.4 or later)
 npm (comes with Node.js)
 Clone the Repository
 bash
-Copy code
+
 git clone https://github.com/shahinmulani/locatemystuff.git
 cd locatemystuff
 Install Dependencies
 Install the dependencies for both the client and server:
 
 bash
-Copy code
+
 # For the server
 cd server
 npm install
@@ -45,19 +45,19 @@ Configure Environment Variables
 Create a .env file in the server directory and add the following environment variables:
 
 bash
-Copy code
+
 MONGO_URI=mongodb://localhost:27017/locatemystuff
 JWT_SECRET=your_jwt_secret
 Running the Application
 Start the application by running the following commands in separate terminal windows or tabs:
 
 bash
-Copy code
+
 # Start the backend server
 cd server
 npm start
 bash
-Copy code
+
 # Start the frontend client
 cd ../client
 npm start
@@ -65,7 +65,7 @@ The application should now be accessible at http://localhost:3000.
 
 Folder Structure
 bash
-Copy code
+
 locatemystuff/
 │
 ├── client/                # React frontend application
